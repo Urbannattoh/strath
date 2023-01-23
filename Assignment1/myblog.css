@@ -1,0 +1,62 @@
+/* left column */
+.column-left
+{ 
+    float: left; width: 15%;
+    text-indent: 10%;
+    border-color: black;
+   
+
+}
+    
+
+/* middle column */
+.column-center
+{ 
+    display: inline-block; width: 65%; 
+    border-left: 3px;
+    border-left-color: rgb(74, 155, 54);
+    /* make sure the border appears */
+    border-left-style: solid;
+    right: 50px;
+    border-width: 3px;
+    text-indent: 23px;
+    
+    
+}
+
+/* right column */
+.column-right
+{ 
+    float: right; width: 15%; 
+    border-style: dashed;
+    border-color: rgb(40, 131, 58);
+    text-align: right;
+    
+
+    }
+
+h2{
+    
+    margin-bottom: 10px;
+
+}
+h5{
+margin-left: 10px;
+
+}
+ h1
+ {
+background-color: yellow;
+text-align: center;
+ }
+ 
+  /* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .column-center, .column-left, .column-right, .vl {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .v1
+    {
+        border-left: 2px solid rgb(255, 255, 255);  
+    }
+}

@@ -1,0 +1,41 @@
+div.a
+{
+    text-align: center;
+}
+
+div.c
+{
+    text-align: center;
+}
+
+/* left column */
+.column-left
+{ 
+    float: left; width: 20%;
+    margin-left: 350px;
+    
+}
+    
+
+/* right column */
+.column-right
+{ 
+    float: right; width: 20%; 
+    margin-right: 350px;
+   
+}
+
+hr
+{
+    rotate: 50px;
+
+}
+
+.vl {
+    border-left: 2px solid rgb(15, 7, 84);
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 200;
+  }

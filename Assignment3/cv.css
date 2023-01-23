@@ -1,0 +1,54 @@
+div.a
+{
+    text-align: center;
+}
+
+.flex-container > div.b
+{
+    text-align: left;
+    background-color: #1B3142;
+    color: white;
+    margin-left: 33%;
+	
+      
+}
+
+/* ::-webkit-scrollbar
+{
+background-color: black;
+width: 10px;
+} */
+
+.flex-container > div.c
+{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: 1B3142;
+    margin-right: 33%;
+    border: 1px solid rgb(5, 5, 5);
+    padding: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+	
+
+}
+
+.flex-container {
+    display: flex;
+  }
+
+.flex-container > div 
+{
+    background-color: #f1f1f1;
+    margin-top: 1px;
+    padding: 20px;
+    font-size: 15px;
+    width: 300px;
+    
+}
+h2
+{
+    color: gold;
+    text-decoration: underline;
+}
+
