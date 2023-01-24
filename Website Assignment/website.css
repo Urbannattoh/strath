@@ -1,0 +1,101 @@
+
+.ti
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+    margin-left: 10px;
+    vertical-align: baseline;
+
+} 
+
+.ma
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-left: 33%;
+    vertical-align: baseline;
+    
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(189, 185, 185);
+    
+  }
+
+  .searchbar
+  {
+    float: right;
+    margin-left:100px;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .flex-container2 {
+    display: flex;
+    background-color: hsl(234, 53%, 18%);
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    border-width: 50px;
+    
+  }
+.intra
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ .test
+ {
+padding-left: 50px;
+text-align: center;
+
+ }
+ .maincontent
+ {
+flex: content;
+display: flex;
+ }
+.relatedlinks{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(229, 229, 229);
+}
+
+ footer
+ {
+    background-color: hsl(234, 53%, 18%);
+    color: white;
+    text-align: center;
+
+ }
+ 
+.publicationmain
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    padding-right: 100px;
+   
+}
+
+.leftpub
+{
+    
+    border-right: 2px solid #424442;
+    text-align: left;
+}
+
